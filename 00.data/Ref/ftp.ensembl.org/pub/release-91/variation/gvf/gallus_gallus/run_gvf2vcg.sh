@@ -1,0 +1,1 @@
+./gvf2vcf.pl -species chicken -gvf_file gallus_gallus.gvf.gz -ref_fasta_file /its1/GB_BT2/jianzuoyi/projects/Chicken/00.data/Ref/Gallus_gallus.Gallus_gallus-5.0.dna.toplevel.fa -fasta_file /its1/GB_BT2/jianzuoyi/projects/Chicken/00.data/Ref/Gallus_gallus.Gallus_gallus-5.0.dna.toplevel.fa -vcf_file gallus_gallus.vcf

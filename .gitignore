@@ -2,3 +2,8 @@
 *.bai
 *.gz
 *qsub*
+*tbi
+*sh.e*
+*.sh.o*
+*.vcf
+shell

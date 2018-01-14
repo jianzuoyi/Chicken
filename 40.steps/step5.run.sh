@@ -1,4 +1,3 @@
-bash /its1/GB_BT2/jianzuoyi/projects/Chicken/40.steps/step5.shell/1.SortSam.sh
 bash /its1/GB_BT2/jianzuoyi/projects/Chicken/40.steps/step5.shell/10.SortSam.sh
 bash /its1/GB_BT2/jianzuoyi/projects/Chicken/40.steps/step5.shell/11.SortSam.sh
 bash /its1/GB_BT2/jianzuoyi/projects/Chicken/40.steps/step5.shell/12.SortSam.sh

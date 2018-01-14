@@ -9,3 +9,5 @@
 shell
 BAMs
 *.log
+*.fa*
+

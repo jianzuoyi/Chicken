@@ -1,6 +1,6 @@
 # Example speedseq commands on a small slice of chromosome 20
 
-OUTDIR=/its1/GB_BT2/jianzuoyi/projects/Chicken/80.speedseq/Sample
+OUTDIR=/its1/GB_BT2/jianzuoyi/projects/Chicken/80.speedseq/Sample.SGE
 SAMPLE_NAME=M1
 SAMPLE_DIR=${OUTDIR}/${SAMPLE_NAME}
 mkdir -p $SAMPLE_DIR
@@ -8,7 +8,7 @@ OUTBASE=${SAMPLE_DIR}/${SAMPLE_NAME}
 # 1. Align with BWA
 /its1/GB_BT2/jianzuoyi/biosoft/speedseq/bin/speedseq align \
     -o $OUTBASE \
-    -t 40 \
+    -t 10 \
     -R "@RG\tID:${SAMPLE_NAME}\tSM:${SAMPLE_NAME}\tLB:${SAMPLE_NAME}" \
     /its1/GB_BT2/jianzuoyi/projects/Chicken/00.data/Ref/Gallus_gallus.Gallus_gallus-5.0.dna.toplevel.fa \
     /its1/GB_BT2/jianzuoyi/projects/Chicken/20.processing_for_gatk/merge_data/M1/M1_1.fq.gz \

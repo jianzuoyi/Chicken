@@ -1,0 +1,38 @@
+{
+  "##_COMMENT1": "INPUT BAM",
+  "HaplotypeCallerGvcf_GATK4.input_bam": "BAM_XXXXXX",
+  "HaplotypeCallerGvcf_GATK4.input_bam_index": "BAI_XXXXXX",
+
+  "##_COMMENT2": "REFERENCE FILES",
+  "HaplotypeCallerGvcf_GATK4.ref_dict": "/its1/GB_BT2/jianzuoyi/projects/Chicken/00.data/Ref/Gallus_gallus.Gallus_gallus-5.0.dna.toplevel.dict",
+  "HaplotypeCallerGvcf_GATK4.ref_fasta": "/its1/GB_BT2/jianzuoyi/projects/Chicken/00.data/Ref/Gallus_gallus.Gallus_gallus-5.0.dna.toplevel.fa",
+  "HaplotypeCallerGvcf_GATK4.ref_fasta_index": "/its1/GB_BT2/jianzuoyi/projects/Chicken/00.data/Ref/Gallus_gallus.Gallus_gallus-5.0.dna.toplevel.fa.fai",
+
+  "##_COMMENT3": "INTERVALS",
+  "HaplotypeCallerGvcf_GATK4.scattered_calling_intervals_list": "/its1/GB_BT2/jianzuoyi/projects/Chicken/00.data/Ref/interval/all.interval_list",
+  "HaplotypeCallerGvcf_GATK4.HaplotypeCaller.interval_padding": 100,
+
+  "##_COMMENT4": "DOCKERS (using 'picard:latest' for now but will use version tag when available)", 
+  "HaplotypeCallerGvcf_GATK4.picard_docker": "vdauwera/picard:2.13.2",
+  "HaplotypeCallerGvcf_GATK4.gatk_docker": "broadinstitute/gatk:4.beta.6",
+  
+  "##_COMMENT5": "PATHS", 
+  "HaplotypeCallerGvcf_GATK4.gatk_launch_path": "/its1/GB_BT2/jianzuoyi/biosoft/gatk-4.0.0.0/",
+  "HaplotypeCallerGvcf_GATK4.picard_path": "/its1/GB_BT2/jianzuoyi/biosoft/gatk-4.0.0.0/",
+
+  "##_COMMENT6": "JAVA OPTIONS", 
+  "HaplotypeCallerGvcf_GATK4.HaplotypeCaller.java_opt": "-Xms8000m",
+  "HaplotypeCallerGvcf_GATK4.MergeGVCFs.java_opt": "-Xms2000m",
+
+  "##_COMMENT7": "MEMORY ALLOCATION", 
+  "HaplotypeCallerGvcf_GATK4.HaplotypeCaller.mem_size": "10 GB",
+  "HaplotypeCallerGvcf_GATK4.MergeGVCFs.mem_size": "3 GB",
+
+  "##_COMMENT8": "DISK SIZE ALLOCATION",
+  "HaplotypeCallerGvcf_GATK4.HaplotypeCaller.disk_size": 100,
+  "HaplotypeCallerGvcf_GATK4.MergeGVCFs.disk_size": 100,
+
+  "##_COMMENT9": "PREEMPTION",
+  "HaplotypeCallerGvcf_GATK4.HaplotypeCaller.preemptible_tries": 3,
+  "HaplotypeCallerGvcf_GATK4.MergeGVCFs.preemptible_tries": 3
+}

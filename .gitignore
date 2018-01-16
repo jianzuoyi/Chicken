@@ -1,3 +1,4 @@
+60.gatk_sge/samples
 *.bam
 *.bai
 *.gz
